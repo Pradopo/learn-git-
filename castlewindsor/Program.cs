@@ -11,7 +11,9 @@ namespace castlewindsor
         static void Main(string[] args)
         {
 
-            Console.WriteLine("test kacang");
+            Console.WriteLine("------start-------");
+            Console.WriteLine("------------------");
+            Console.WriteLine(string.Format("Name::{0}","Parang Pradopo"));
             Console.ReadKey();
         }
     }
