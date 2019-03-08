@@ -27,7 +27,7 @@ namespace castlewindsor
             Console.WriteLine(string.Format("Address::{0}", user.Address));
             Console.WriteLine(string.Format("Status::{0}", user.Status));
 
-            Console.WriteLine("---finish---");
+            Console.WriteLine("---finish data---");
             Console.ReadKey();
         }
     }
