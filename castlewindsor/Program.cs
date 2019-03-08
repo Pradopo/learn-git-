@@ -10,6 +10,9 @@ namespace castlewindsor
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("test kacang");
+            Console.ReadKey();
         }
     }
 }
