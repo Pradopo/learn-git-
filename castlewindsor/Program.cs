@@ -8,6 +8,10 @@ namespace castlewindsor
 {
     class Program
     {
+        /// <summary>
+        /// main function 
+        /// </summary>
+        /// <param name="args">array pf argument for program</param>
         static void Main(string[] args)
         {
 
@@ -29,7 +33,7 @@ namespace castlewindsor
             };
             Console.WriteLine(string.Format("ID::{0}",user.ID));
 
-            for (var i = 1; i <=3; i++ ) {
+            for (var i = 1; i <=4; i++ ) {
 
                 Console.WriteLine(string.Format("Name loop-{1}::{0}", user.Name,i));
                 Console.WriteLine(string.Format("Address loop-{1}::{0}", user.Address,i));
