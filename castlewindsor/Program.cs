@@ -38,8 +38,8 @@ namespace castlewindsor
                 Console.WriteLine(string.Format("Name loop-{1}::{0}", user.Name,i));
                 Console.WriteLine(string.Format("Address loop-{1}::{0}", user.Address,i));
             }
-            Console.WriteLine(string.Format("Name::{0}", user.Name));
-            Console.WriteLine(string.Format("Address::{0}", user.Address));
+            //Console.WriteLine(string.Format("Name::{0}", user.Name));
+            //Console.WriteLine(string.Format("Address::{0}", user.Address));
             Console.WriteLine(string.Format("Status::{0}", user.Status));
             Console.WriteLine("---finish data---");
             Console.ReadKey();
