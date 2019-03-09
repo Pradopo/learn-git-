@@ -15,5 +15,10 @@ namespace castlewindsor
         public string Email { get; set; }
         public string Nationality { get; set; }
         public string Status { get; set; }
+
+        /// <summary>
+        /// user asset 
+        /// </summary>
+        public List<UserAsset> UserAssetData { get; set; }
     }
 }
